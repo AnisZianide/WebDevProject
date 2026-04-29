@@ -1,0 +1,17 @@
+Why is version control better than keeping many duplicate files?
+It prevents clutter and confusion. Instead of saving script_v1.py and script_final.py, Git tracks changes in a hidden database, allowing you to revert to any previous version easily.
+
+Why is git status often called a radar or compass?
+Because it shows you exactly where you are in the workflow—it tells you which files are modified, which are staged, and what needs to be committed next.
+
+What is the purpose of the staging area?
+It’s a preparation zone. It lets you group specific changes together before officially saving them in a commit.
+
+What is the difference between an untracked file and a modified file?
+An untracked file is new; Git has never seen it before. A modified file is one that Git already knows, but has been changed since the last commit.
+
+Why does Git need your name and email before committing?
+For attribution. It ensures every change in the project history is signed by the person who made it, which is essential for collaboration.
+
+What does git init actually create?
+It creates a hidden folder named .git that stores all the repository's history, settings, and snapshots.
